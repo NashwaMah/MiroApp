@@ -1,0 +1,29 @@
+{
+    "signupURL":"https://miro.com/signup/",
+    "hotmail":
+   [ {
+    "name":"Nashwa Mahmoud",
+    "workEmail":"newtestj123453@hotmail.com",
+    "password":"P@$$w0rd123456",
+     "hearAboutUs":"linkedin",
+     "miroNews":"False"
+    },
+    {
+
+        "name":"new User",
+        "workEmail":"newUjser3@hotmail.com",
+        "password":"P@$$w0rd123456",
+         "hearAboutUs":"linkedin",
+         "miroNews":"True"
+    }],
+
+    "gmail":
+    {
+        "gmail":"nou.elturkey90@gmail.com",
+        "password":"Nashwaislam88",
+        "miroNews":"False"
+
+    }
+   
+   
+}

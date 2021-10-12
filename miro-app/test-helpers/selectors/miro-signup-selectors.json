@@ -1,0 +1,28 @@
+{
+    "signupPage":
+    {
+    "guestName":"#name",
+   "workEmail":"#email",
+   "password":"#password",
+   "hearAboutUs":"#wom",
+   "signupTerms":"#signup-terms",
+   "signupSubscribe":"#signup-subscribe",
+   "submitBtn":"button[type='submit']",
+   "confirmationMessage":"Check your email",
+   "womLabel":"How did you hear about Miro?"
+    },
+
+    "signupGmail":
+    {
+        "signupGmail":"#a11y-signup-with-google",
+        "signupTerms":"#tos-signup-terms",
+        "signupSubscribe":"#tos-signup-subscribe",
+        "contToSignup":".js__socialtos-signup",
+        "gmail":"#identifierId",
+        "gpassword":"input[name='password']",
+        "next":"div[class='VfPpkd-RLmnJb']"
+    }
+
+
+
+}

@@ -1,0 +1,26 @@
+{
+  "name": "miro-app",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "test:chrome": "testcafe chrome ./miro-app/tests  takeOnFails=true,path=artifacts/screenshots/miro-app,pathPattern='${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}_${FILE_INDEX}.png' --skip-js-errors --disable-page-caching ,spec --video artifacts/videos/miro-app --video-options singleFile=true",
+    "test:edge": "testcafe edge ./miro-app/tests  takeOnFails=true,path=artifacts/screenshots/miro-app,pathPattern='${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}_${FILE_INDEX}.png' --skip-js-errors --disable-page-caching ,spec --video artifacts/videos/miro-app --video-options singleFile=true",
+    "test:safari": "testcafe safari ./miro-app/tests  takeOnFails=true,path=artifacts/screenshots/miro-app,pathPattern='${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}_${FILE_INDEX}.png' --skip-js-errors --disable-page-caching  ,spec --video artifacts/videos/miro-app --video-options singleFile=true",
+    "test:firefox": "testcafe firefox ./miro-app/tests  takeOnFails=true,path=artifacts/screenshots/miro-app,pathPattern='${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${TEST}_${FILE_INDEX}.png' --skip-js-errors --disable-page-caching ,spec --video artifacts/videos/miro-app --video-options singleFile=true"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "allure": "0.0.0",
+    "allure-commandline": "^2.13.0",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "dotenv": "^10.0.0",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.1",
+    "testcafe-reporter-allure": "^1.0.5",
+    "testcafe-reporter-allure-expanded": "^1.1.0",
+    "testcafe-reporter-html": "^1.4.6"
+  }
+}
