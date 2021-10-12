@@ -10,19 +10,19 @@ Download Node.js
 
 inside Project Terminal run below :
 
-sudo npm install 
-sudo  npm start
-npm install -g testcafe 
-npm install --save @ffmpeg-installer/ffmpeg
-npm install -g allure-commandline --save-dev
+1. sudo npm install 
+2. sudo  npm start
+3. npm install -g testcafe 
+4. npm install --save @ffmpeg-installer/ffmpeg
+5. npm install -g allure-commandline --save-dev
 
 
 To Run Miro automation on :
 
-Chrome  : npm run test:chrome 
-Firefox  : npm run test:firefox 
-Safari  : npm run test:safari 
-edge  : npm run test:edge 
+1. Chrome  : npm run test:chrome 
+2. Firefox  : npm run test:firefox 
+3. Safari  : npm run test:safari 
+4. edge  : npm run test:edge 
 
 
 To Update Test data for Miro Signup :
